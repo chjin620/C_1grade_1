@@ -2,10 +2,8 @@
 
 int main()
 {
-	char input[128]={0};
+	int i1=3.141592;
+	int i2=-3.141592;
 	
-	printf("입력> ");
-	scanf("%[^\n]s",input);
-	
-	printf("출력> %s",input);
+	printf("i1 : %d\ni2 : %d",i1,i2);
 }
